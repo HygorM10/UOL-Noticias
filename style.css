@@ -1,0 +1,947 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+hr.separador {
+  margin-left: 0;
+  border: 1.5px solid #F0F0F0;
+}
+
+.red {
+  color: #cb0003;
+}
+
+.black {
+  color: #333333;
+}
+
+.black2 {
+  color: #f0f0f0;
+}
+
+.white {
+  color: white;
+}
+
+/* ----------- INÍCIO TOPO PRETO ----------- */
+
+.topo {
+  background: #000;
+  height: 40px;
+  position: relative;
+  width: 100%;
+  color: #ddd;
+  font-size: 12px;
+  letter-spacing: 0.425px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topo a {
+  color: #ddd;
+}
+
+.topo ul li {
+  list-style-type: none;
+  margin-left: 8px;
+}
+
+.topo-container {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  width: 1190px;
+  align-items: center;
+}
+
+.centralize {
+  position: relative;
+  margin: 0 auto;
+}
+
+.topoesq {
+  display: flex;
+  justify-content: flex-start;
+  min-width: 381.13px;
+  letter-spacing: 0.663px;
+}
+
+.topodir {
+  display: flex;
+  justify-content: flex-end;
+  letter-spacing: 0.663px;
+  letter-spacing: 0.7px;
+  align-items: center;
+}
+
+ul.topodir li {
+  margin-left: 35px;
+}
+
+.service__email__iconSvgMail {
+  fill: #ddd;
+  height: 40px;
+  width: 22px;
+}
+
+.service__email,
+.profile-avatar {
+  display: flex;
+  align-items: center;
+}
+
+.service__email span,
+.profile-avatar span {
+  margin-left: 8px;
+}
+
+.the-avatar {
+  height: 24px;
+  width: 24px;
+  fill: #ddd; 
+}
+
+/* ----------- FIM TOPO PRETO ----------- */
+
+
+/* ----------- INÍCIO TOPO COM A LOGO ----------- */
+
+header.navbar .topo .start {
+  justify-items: start;
+}
+
+.topo2 {
+  height: 125px;
+  display: flex;
+  align-items: stretch;
+}
+
+.logo {
+  flex: 0 0 245px;
+}
+
+.centro {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  height: 40px;
+  justify-content: start;
+  margin-right: 35px;
+  min-width: 247px;
+  justify-content: space-between;
+}
+
+/* ----------- INÍCIO FORM EMAIL ----------- */
+.box-email {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  user-select: none;
+}
+
+.form-email {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  font-size: 13px;
+  letter-spacing: 0.22px;
+  line-height: 15px;
+  transition: opacity 5ms;
+  width: 360px;
+  margin-top: 20px;
+}
+
+.content-email {
+  height: 40px;
+  display: flex;
+}
+
+.content-email input {
+  padding: 14px 5px 12px 15px;
+  border: 1px solid #ccc;
+}
+
+.user {
+  width: 123px;
+  border-radius: 2px 0 0 2px;
+}
+
+.password {
+  width: 120px;
+  border-radius: 0 2px 2px 0;
+}
+
+.entrar {
+  height: 40px;
+  width: 110px;
+  margin-left: 5px;
+  border-radius: 2px;
+  background-image: linear-gradient(71deg, #d20108, #f80 73%, #f9b600);
+  cursor: pointer;
+  transition: opacity .5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  font-size: 12px;
+  letter-spacing: .6px;
+  text-transform: uppercase;
+}
+
+input.entrar {
+  padding: 0;
+  border: 0;
+}
+
+input.password {
+  border-left: 0;
+}
+
+.no-email {
+  margin-top: 6px;
+  line-height: 1.15;
+  width: 243px;
+  display: block;
+}
+
+a.no-email {
+  color: #000;
+}
+
+.HU_email__signIt__contentForm__button__icon {
+  fill: #fff;
+  height: 22px;
+  margin-right: 5px;
+  width: 22px;
+}
+
+/* -----------  FIM FORM EMAIL ----------- */
+
+/* -----------  INÍCIO DIV DÓLAR/EURO ----------- */
+.currency {
+  height: 33px;
+  margin-right: 35px;
+  margin-left: 5px;
+  min-width: 90px;
+}
+
+.ul-currency {
+  display: flex;
+  flex-direction: column;
+}
+
+.currency-item {
+  color: #333;
+  font-size: 13px;
+  letter-spacing: -0.3px;
+  margin: 1px 0 5px;
+  overflow: hidden;
+}
+
+.currency-item a {
+  align-items: baseline;
+  display: flex;
+  user-select: none;
+  font-family: "UOLTextBold", Arial, Helvetica, sans-serif;
+  width: 40px;
+  color: #333;
+  font-weight: bold;
+}
+
+.currency-item a span {
+  font-weight: normal;
+  color: #417505;
+  font-size: 12px;
+  position: relative;
+}
+
+.dinheiros {
+  padding-left: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.dinheiros span {
+  padding-left: 5px;
+}
+
+/* -----------  FIM DIV DÓLAR/EURO ----------- */
+
+/* -----------  INÍCIO DIV TEMPO ----------- */
+
+.tempo {
+  height: 35px;
+  max-width: 282px;
+  display: flex;
+  cursor: pointer;
+}
+
+.info-clima {
+  display: flex;
+}
+
+.info-tempo {
+  display: flex;
+  flex-direction: column;
+}
+
+.tempo svg {
+  height: 25px;
+  width: 35px;
+  line-height: 22px;
+  margin-left: 5px;
+}
+
+.tempo-cidade {
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  letter-spacing: -0.3px;
+  font-weight: bold;
+}
+
+.temperatura {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.temp-max {
+  color: #39c;
+  margin-right: 6px;
+}
+
+.temp-min {
+  color: #9c3232;
+}
+
+svg#HU-arrow-down {
+  fill: #999;
+  height: 19px;
+  width: 19px;
+}
+
+/* -----------  FIM DIV TEMPO ----------- */
+
+/* ----------- INÍCIO INPUT BUSCAR ----------- */
+.search-container {
+  opacity: 1;
+  transition: opacity .3s, border .3s;
+  align-items: center;
+  background-color: #fff;
+  border: solid 1px #ccc;
+  border-radius: 2px;
+  
+  display: flex;
+  height: 40px;
+  padding-left: 15px;
+  padding-right: 10px;
+  width: 225px;
+  flex: 0 0 240px;
+  justify-content: flex-end;
+}
+
+input.search {
+  background-color: #fff;
+  cursor: inherit;
+  color: #888;
+  font-size: 12px;
+  letter-spacing: 0.6px;
+  outline: 0;
+  text-align: left;
+  user-select: none;
+  width: 90%;
+  border: none;
+  text-transform: uppercase;
+}
+
+.search-container .HU_l_icon-magnifier {
+  display: block;
+  fill: #000;
+  height: 18px;
+  width: 20px;
+  margin-right: 3px;
+  margin-bottom: 1px;
+}
+
+.search-container .HU_l_icon-magnifier {
+  display: block;
+  fill: #000;
+  height: 18px;
+  width: 20px;
+  margin-right: 3px;
+  margin-bottom: 1px;
+}
+
+.HU_l_icons {
+  outline: 0;
+  display: inline-block;
+  vertical-align: middle;
+  font-style: normal;
+  line-height: 18px;
+}
+
+/* ----------- FIM INPUT BUSCAR ----------- */
+
+/* ----------- FIM TOPO COM A LOGO ----------- */
+
+/* ----------- INÍCIO MENU INFERIOR ----------- */
+
+.menu-item-vermelho,
+.menu-item-roxo,
+.menu-item-vinho,
+.menu-item-agua,
+.menu-item-amarelo,
+.menu-item-salmao,
+.menu-item-verde,
+.menu-item-rosa {
+  flex-grow: 1;
+  margin-top: -3px;
+  outline: none;
+  user-select: none;
+  list-style: none;
+}
+
+.menu-link {
+  display: flex;
+  flex-direction: column;
+  letter-spacing: .6px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  z-index: 1000;
+  outline: none;
+  /* border-top: 7px solid transparent; */
+}
+
+.menu-link>span {
+  flex-grow: 1;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 0 1px 1px;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 46px;
+  padding: 0 4px;
+}
+
+.menu-link>span {
+  border-color: transparent;
+  border-style: solid;
+  border-width: 0 1px 1px;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 46px;
+  padding: 0 4px;
+  flex-grow: 1;
+}
+
+a.menu-link::before {
+  background: none;
+  content: "";
+  display: block;
+  height: 7px;
+  width: 110%;
+  flex-grow: 1;
+}
+
+.menu-item-vermelho:hover>a:before {
+  background-image: linear-gradient(to right, #ff0307, #be0508);
+}
+
+.menu-item-roxo:hover>a:before {
+  background-image: linear-gradient(to right, #2e48ff, #4f2cd2);
+}
+
+.menu-item-vinho:hover>a:before {
+  background-image: linear-gradient(to right, #d72b01, #940404);
+}
+
+.menu-item-agua:hover>a:before {
+  background-image: linear-gradient(to right, #19a39a, #0c5254);
+}
+
+.menu-item-amarelo:hover>a:before {
+  background-image: linear-gradient(to right, #ffe113, #f9b402);
+}
+
+.menu-item-rosa:hover>a:before {
+  background-image: linear-gradient(to right, #ee4678, #ff0452);
+}
+
+.menu-item-verde:hover>a:before {
+  background-image: linear-gradient(to right, #5decfe, #a0fe71);
+}
+
+.menu-item-salmao:hover>a:before {
+  background-image: linear-gradient(to right, #ff8700, #ff465c);
+}
+
+ul.inferior {
+  /* align-items: stretch; */
+  border-top: solid 3px #333;
+  display: flex;
+  height: 53px;
+  justify-content: space-between;
+  width: 1190px;
+}
+
+a.alteraCor:hover strong {
+  color: #333333;
+}
+
+a.alteraCor:hover h1 {
+  color: #cb0003;
+}
+
+/* ----------- FIM MENU INFERIOR ----------- */
+
+/* ----------- INÍCIO CORPO NOTICIAS ------------- */
+
+.categoriasFixas {
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 220px;
+  z-index: 999;
+  background-color: #FFFFFF;
+  border: solid 1px #EEE;
+  width: 35px;
+  height: 180px;
+  overflow: visible;
+  padding: 9px 0 8px 0;
+}
+
+.categoriasFixas ul {
+  margin: 0;
+}
+
+.categoriasFixas li {
+  height: 27px;
+  margin-bottom: 0;
+  padding-left: 15px;
+  padding-top: 0;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+.aberto {
+  display: flex;
+  text-align: end;
+  height: 24px;
+  width: auto;
+  position: absolute;
+  font-weight: 900;
+  margin-bottom: 3px;
+}
+
+.textoCategoria {
+  width: 87px;
+  padding: 0 5px 0 0;
+  display: none;
+  font-size: 11px;
+  line-height: 27px;
+  font-weight: normal;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  white-space: nowrap;
+}
+
+.barrinha {
+  display: block;
+  width: 5.996px;
+  height: 45px;
+  padding: 0;
+}
+
+.categoriasFixas li:hover .textoCategoria {
+  display: block;
+}
+
+.categoria1 {
+  background-color: #cb0003;
+}
+
+.categoria2 {
+  background-color: #ffcd1a;
+}
+
+.categoria3 {
+  background-color: #ff8126;
+}
+
+.categoria4 {
+  background-color: #297acc;
+}
+
+.categoria5 {
+  background-color: #e40045;
+}
+
+.categoria6 {
+  background-color: #00EBFF;
+}
+
+.container {
+  display: grid;
+  grid-template:
+  "p s"auto / 690px 450.984px;
+  /* margin: 0 248.125px 0 248.125px; */
+  padding: 30px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  grid-column-gap: 20px;
+}
+
+.centraliza-noticias {
+  width: 1190px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.containerOne {
+  display: grid;
+  grid-template:
+  "noticiaDestaque noticiaDestaque noticiaDestaque"280px "noticia1 noticia2 noticia3"auto "noticia4 noticia5 noticia6"auto / 220px 220px 200px;
+  /* grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr; */
+  /* width: 680px; */
+  grid-gap: 20px;
+  height: 60px;
+  grid-area: p;
+}
+
+.noticiaDestaque {
+  grid-area: noticiaDestaque;
+  /* background: green; */
+  height: 100px;
+  
+}
+
+ul.relacionadas {
+  font-size: 20px;
+  vertical-align: middle;
+  line-height: inherit;
+  text-decoration: none;
+  margin: -6px 0 20px 0;
+}
+
+ul.relacionadas:before {
+  background-color: #cb0003;
+  content: "";
+  width: 3px;
+  border-radius: 3px;
+  height: 20px;
+  float: left;
+  margin: 0 6px 0 0;
+}
+
+strong.categoriaPrincipal {
+  font-size: 11px;
+  line-height: 18px;
+  line-height: 1.64;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  display: inline-block;
+  max-width: 650px;
+}
+
+h1.noticiaPrincipal {
+  font-size: 48px;
+  line-height: 1;
+  letter-spacing: -1.9px;
+  font-family: "UOLTextBold", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  clear: left;
+  margin: 0 0 30px 0;
+}
+
+h2.tituloNoticia {
+  font-size: 22px;
+  line-height: 1.09;
+  letter-spacing: -0.8px;
+  font-family: "UOLTextBold", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-align: left;
+}
+
+.noticiaSecundaria {
+  margin-top: 10px;
+  margin-bottom: 2px;
+  display: block;
+  text-transform: uppercase;
+  font-size: 11px;
+  line-height: 1.64;
+  letter-spacing: 0.6px;
+}
+
+.noticiaSecundaria1 {
+  grid-area: noticia1;
+  width: 100%;
+  padding: 20px 0 0px;
+}
+
+.noticiaSecundaria2 {
+  grid-area: noticia2;
+  width: 100%;
+  padding: 20px 0 0px;
+}
+
+.noticiaSecundaria3 {
+  grid-area: noticia3;
+  width: 100%;
+  padding: 20px 0 0px;
+}
+
+.noticiaSecundaria4 {
+  grid-area: noticia4;
+  width: 100%;
+  padding: 0;
+}
+
+.noticiaSecundaria5 {
+  grid-area: noticia5;
+  width: 100%;
+  padding: 0;
+}
+
+.noticiaSecundaria6 {
+  grid-area: noticia6;
+  width: 100%;
+  padding: 10px 0 0 0;
+}
+
+img.imagem {
+  display: block;
+  width: 100%;
+}
+
+.containerTwo {
+  grid-area: s;
+  display: grid;
+  grid-template:
+  "slideTopo slideTopo"386px "chamadas chamadas"530px / 239px 239px;
+  grid-row-gap: 30px;
+  width: 479px;
+}
+
+.slide {
+  grid-area: slideTopo;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #f0f0f0;
+}
+
+h2.textoSlide {
+  display: flex;
+  margin: 0 10px 5px 10px;
+  align-items: end;
+  color: #ffffff;
+  z-index: 9999;
+}
+
+h2.textoSlide2 {
+  display: flex;
+  margin: 0 10px 5px 10px;
+  align-items: end;
+  color: #FFFFFF;
+  z-index: 9999;
+}
+
+.topoSlide {
+  padding: 5px 0;
+}
+
+.topoSlide img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.owl-carousel {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.slideTopo1 {
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  background-image: url('img/promocao.png');
+  background-size: 600px;
+  height: 322px;
+  position: relative;
+  /* margin-top: 10px;
+  margin-bottom: 15px; */
+}
+
+.slideTopo1:before {
+  position: absolute;
+  content: "";
+  opacity: .8;
+  height: 80%;
+  width:100%;
+  bottom: 0;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0), #000);
+  z-index: 11;
+}
+
+.slideTopo2 {
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  background-image: url('img/racionais.jpg');
+  background-size: 457px;
+  height: 322px;
+  position: relative;
+  /* margin-top: 20px;
+  margin-bottom: 15px; */
+}
+
+.slideTopo2:before {
+  position: absolute;
+  content: "";
+  opacity: .8;
+  height: 80%;
+  width:100%;
+  bottom: 0;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0), #000);
+  z-index: 11;
+}
+
+.slideTopo3 {
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  background-image: url('img/fernando.jpg');
+  background-size: 459px;
+  height: 322px;
+  position: relative;
+  /* margin-top: 20px;
+  margin-bottom: 15px; */
+}
+
+.slideTopo3:before {
+  position: absolute;
+  content: "";
+  opacity: .8;
+  height: 80%;
+  width:100%;
+  bottom: 0;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0), #000);
+  z-index: 11;
+}
+
+.chamadas {
+  grid-area: chamadas;
+  display: grid;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  grid-template: "chamadaEsquerda1 chamadaDireita1"250px "chamadaEsquerda2 chamadaDireita2"250px / 223px 223px;
+  background-color: #f0f0f0;
+  padding: 10px 10px 10px 10px;
+  width: 480px;
+}
+
+.chamadaEsquerda1 {
+  grid-area: chamadaEsquerda1;
+  width: 225px;
+}
+
+.chamadaDireita1 {
+  grid-area: chamadaDireita1;
+  width: 220px;
+}
+
+.chamadaEsquerda2 {
+  grid-area: chamadaEsquerda2;
+  width: 225px;
+}
+
+.chamadaDireita2 {
+  grid-area: chamadaDireita2;
+  width: 220px;
+}
+
+.imagemChamada {
+  background-image: url('img/silvio.jpg');
+  background-size: 225px;
+  height: 168px;
+  display: grid;
+  align-items: end;
+  cursor: pointer;
+}
+
+.imagemChamada2 {
+  background-image: url('img/idoso.jpg');
+  background-size: 225px;
+  height: 168px;
+  display: grid;
+  align-items: end;
+  cursor: pointer;
+}
+
+.imagemChamada3 {
+  background-image: url('img/isabella.jpg');
+  background-size: 225px;
+  height: 168px;
+  display: grid;
+  align-items: end;
+  cursor: pointer;
+}
+
+.imagemChamada4 {
+  background-image: url('img/fausto.jpg');
+  background-size: 225px;
+  height: 168px;
+  display: grid;
+  align-items: end;
+  cursor: pointer;
+}
+
+.imgChamada {
+  float: none;
+  width: 100%;
+  height: 168px;
+  z-index: 1;
+}
+
+.titulo {
+  font-weight: normal;
+}
+
+.chapeuChamada {
+  margin: 0 0 5px 10px;
+}
+
+.noticiaChamada {
+  letter-spacing: -0.3px;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px 10px 15px;
+}
+
+.owl-carousel {
+  display: flex;
+  flex-direction: column-reverse !important;
+}
